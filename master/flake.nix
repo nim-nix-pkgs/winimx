@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-winimx-master.flake = false;
+  inputs.src-winimx-master.ref   = "refs/heads/master";
   inputs.src-winimx-master.owner = "khchen";
-  inputs.src-winimx-master.ref   = "master";
   inputs.src-winimx-master.repo  = "winimx";
   inputs.src-winimx-master.type  = "github";
   
