@@ -24,20 +24,22 @@
     "jsony": {
       "inputs": {
         "flakeNimbleLib": [
+          "winimx-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "winimx-master",
           "nixpkgs"
         ],
         "src-jsony-1_1_3": "src-jsony-1_1_3"
       },
       "locked": {
         "dir": "1_1_3",
-        "lastModified": 1651918053,
-        "narHash": "sha256-Ck2rHRha/bQgIVUit2irWAE4Y85Aiv1etmAqymK92rU=",
+        "lastModified": 1651555565,
+        "narHash": "sha256-2nGmBL3UNrnbQ1+TeLNE7yFdClugft2B6GEZR5q+UMc=",
         "owner": "nim-nix-pkgs",
         "repo": "jsony",
-        "rev": "b66ed5f2c6c4d62df3725042d03b7b0a8941d1e3",
+        "rev": "76f557a059969f2f8bb5e40e9fd40a96918b51dc",
         "type": "github"
       },
       "original": {
@@ -62,11 +64,8 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "jsony": "jsony",
         "nixpkgs": "nixpkgs",
-        "src-winimx-master": "src-winimx-master",
-        "winim": "winim",
-        "zippy": "zippy"
+        "winimx-master": "winimx-master"
       }
     },
     "src-jsony-1_1_3": {
@@ -140,20 +139,22 @@
     "winim": {
       "inputs": {
         "flakeNimbleLib": [
+          "winimx-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "winimx-master",
           "nixpkgs"
         ],
         "src-winim-3_8_0": "src-winim-3_8_0"
       },
       "locked": {
         "dir": "3_8_0",
-        "lastModified": 1651918606,
-        "narHash": "sha256-Xsh6nnk8mm2DEGiHcdXeUGVjjQKS2szbx4zETzEETUo=",
+        "lastModified": 1651556239,
+        "narHash": "sha256-DzrHvD1sEMOvXo49a00r1gsX9IrRMlnkNyhy/ib17xQ=",
         "owner": "nim-nix-pkgs",
         "repo": "winim",
-        "rev": "cb6efb70598335c2f952174beea19aef0fab58cb",
+        "rev": "24f535df4e57e4dfa75248f33866a19dd2d9f34a",
         "type": "github"
       },
       "original": {
@@ -164,23 +165,55 @@
         "type": "github"
       }
     },
-    "zippy": {
+    "winimx-master": {
       "inputs": {
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
+        "jsony": "jsony",
         "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-winimx-master": "src-winimx-master",
+        "winim": "winim",
+        "zippy": "zippy"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651591431,
+        "narHash": "sha256-ppJdGZDHbge6viidFDZe24cGEwHLHh2tsNLQGn0H4p0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "winimx",
+        "rev": "6a8f26da06596ef3adb3d08f3dcaa36bf0f3b62b",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "winimx",
+        "type": "github"
+      }
+    },
+    "zippy": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "winimx-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "winimx-master",
           "nixpkgs"
         ],
         "src-zippy-0_9_7": "src-zippy-0_9_7"
       },
       "locked": {
         "dir": "0_9_7",
-        "lastModified": 1651918631,
-        "narHash": "sha256-hqGCVQ583nHCKvr/kZsSbNZgECropgoEAMNnW0J+NpQ=",
+        "lastModified": 1651556293,
+        "narHash": "sha256-o1wVEcKkc0HXXw1Y3hehv8KzITemo4BxrPkM//zIm2k=",
         "owner": "nim-nix-pkgs",
         "repo": "zippy",
-        "rev": "6161ea73fbedc2247c20e66b136d6cdda3177110",
+        "rev": "7daee673d80a59153410d98fe6ca80e63def1eb6",
         "type": "github"
       },
       "original": {
